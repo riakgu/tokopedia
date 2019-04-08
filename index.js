@@ -71,10 +71,10 @@ async function registerBigToken(email, referral) {
             }
         }
         console.log(`[!] Email : ${doGetData.email}@${emailVerified}`);
-        const doRegister = await registerBigToken(doGetData.email+`@${emailVerified}`, `RMAL4SE4L`);
+        const doRegister = await registerBigToken(doGetData.email+`@${emailVerified}`, `RIAKGU1`);
         if(doRegister.indexOf('user_id') > -1) {
             console.log(`[!] Register success, sleep 20sec.`);
-            await delay(20000);
+            await delay(1);
             try {
                 cURL = await rp({
                     url: 'https://generator.email/inbox2/',
