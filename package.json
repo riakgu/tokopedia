@@ -1,19 +1,17 @@
 {
-  "name": "bigtoken",
+  "name": "tokped",
   "version": "1.0.0",
-  "description": "big token auto registration and verify email",
-  "main": "index.js",
+  "description": "",
+  "main": "regis.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Wildan F",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "delay": "^4.1.0",
-    "random-ua": "0.0.6",
-    "randomstring": "^1.1.5",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4",
-    "string": "^3.3.3"
+    "cheerio": "^1.0.0-rc.3",
+    "delay": "^4.3.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.0"
   }
 }
